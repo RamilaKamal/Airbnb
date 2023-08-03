@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="d-flex">
+        <div class="calendar-container d-flex">
+            <div class="new-calendar">
+                <div class="month d-flex justify-content-between">
+                    <i class="fas fa-angle-left prev"></i>
+                    <div class="date">
+                        <h1></h1>
+                    </div>
+                    <i id="hide-icon" class="fas fa-angle-right"></i>
+                </div>
+                <div class="weekdays d-flex align-items-center justify-content-between">
+                    <div class="d-flex justify-content-center align-items-center">Su</div>
+                    <div class="d-flex justify-content-center align-items-center">Mo</div>
+                    <div class="d-flex justify-content-center align-items-center">Tu</div>
+                    <div class="d-flex justify-content-center align-items-center">We</div>
+                    <div class="d-flex justify-content-center align-items-center">Th</div>
+                    <div class="d-flex justify-content-center align-items-center">Fr</div>
+                    <div class="d-flex justify-content-center align-items-center">Sa</div>
+                </div>
+                <div class="days"></div>
+            </div>
+        </div>
+        <div class="calendar-container d-flex">
+            <div class="calendar">
+                <div class="month d-flex justify-content-between">
+                    <i id="hide-icon" class="fas fa-angle-left prev"></i>
+                    <div class="new-date">
+                        <h1></h1>
+                    </div>
+                    <i class="fas fa-angle-right next"></i>
+                </div>
+                <div class="weekdays d-flex align-items-center">
+                    <div class="d-flex justify-content-center align-items-center">Su</div>
+                    <div class="d-flex justify-content-center align-items-center">Mo</div>
+                    <div class="d-flex justify-content-center align-items-center">Tu</div>
+                    <div class="d-flex justify-content-center align-items-center">We</div>
+                    <div class="d-flex justify-content-center align-items-center">Th</div>
+                    <div class="d-flex justify-content-center align-items-center">Fr</div>
+                    <div class="d-flex justify-content-center align-items-center">Sa</div>
+                </div>
+                <div class="new-days"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/ecf6a77b25.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <!-- <script src="index.js"></script> -->
+    <script src="calendar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    
+</body>
+</html>
